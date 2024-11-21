@@ -22,7 +22,7 @@ class ResultActivity : AppCompatActivity() {
 
         if(imc <= 18.5f) {
             classification = "MAGREZA"
-            classificationColor = R.color.sky_blue
+            classificationColor = R.color.red
         } else if (imc <= 24.9f) {
             classification = "NORMAL"
             classificationColor = R.color.lime_green
